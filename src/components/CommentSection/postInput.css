@@ -1,0 +1,19 @@
+form {
+   display: flex;
+}
+#commentInput{
+    border: none;
+    border-top: 1px solid #efefef;
+    outline: transparent;
+    padding-left: 20px;
+}
+
+.inputButton {
+    background: white;
+
+   border: none;
+   border-top: 1px solid #efefef;
+    /* color: #2fa7f7; */
+    outline: none;
+    padding-right: 20px;
+}

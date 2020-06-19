@@ -8,7 +8,7 @@ import { FaHeart,FaRegHeart, FaRegComment } from 'react-icons/fa';
 
 const LikeSection = props => {
   const [heart, setHeart] = useState(true)
-  // console.log(props)
+  
   
   const handleIncrementLikes = (e) => {
     props.setLikes( prev => prev + 1)
