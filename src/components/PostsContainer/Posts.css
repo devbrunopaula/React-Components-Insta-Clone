@@ -53,4 +53,15 @@
   width: 100px;
   margin: 15px 0px;
   font-size: 16px;
+  
+}
+
+
+
+/* .red:focus{
+ color: red;
+} */
+
+svg:focus {
+  fill: red;
 }
