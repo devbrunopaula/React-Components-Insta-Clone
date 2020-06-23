@@ -44,6 +44,56 @@ const dummyData = [
                 text: "It that injustice"
             }
         ]
+    },
+    {
+        username: "Cindy Lovely",
+        thumbnailUrl: 'https://images.unsplash.com/profile-1500739631730-5feab9995dea?dpr=1&auto=format&fit=crop&w=64&h=64&q=60&crop=faces&bg=fff',
+        imageUrl: 'https://images.unsplash.com/photo-1529397938791-2aba4681454f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
+        likes: 4307,
+        timestamp: "July 15th 2017, 03:12:09 pm",
+        comments: [
+            {
+                username: "twitch",
+                text: "Epic Street Fighter action here in Vegas!"
+            },
+            {
+                username: "michaelmarzetta",
+                text: "Omg that match was crazy"
+            },
+            {
+                username: "themexican_leprechaun",
+                text: "What a setup"
+            },
+            {
+                username: "dennis_futbol",
+                text: "It that injustice"
+            }
+        ]
+    },
+    {
+        username: "Charlei Human",
+        thumbnailUrl: 'https://images.unsplash.com/profile-fb-1460145945-82dd866d15f5.jpg?dpr=1&auto=format&fit=crop&w=64&h=64&q=60&crop=faces&bg=fff',
+        imageUrl: 'https://images.unsplash.com/photo-1552334949-3dcfaf514919?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
+        likes: 4307,
+        timestamp: "July 15th 2017, 03:12:09 pm",
+        comments: [
+            {
+                username: "twitch",
+                text: "Epic Street Fighter action here in Vegas!"
+            },
+            {
+                username: "michaelmarzetta",
+                text: "Omg that match was crazy"
+            },
+            {
+                username: "themexican_leprechaun",
+                text: "What a setup"
+            },
+            {
+                username: "dennis_futbol",
+                text: "It that injustice"
+            }
+        ]
     }
 ];
 

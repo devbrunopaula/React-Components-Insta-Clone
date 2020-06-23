@@ -1,0 +1,58 @@
+.side {
+    margin-top: 30px;
+   
+}
+.userinfo, h3, h6{
+    padding:  5px;
+    margin: 0;
+
+}
+
+.userinfo, h5 {
+    color: #262626
+}
+
+.sidebar-avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;   
+}
+
+.sidebar-info {
+    display: flex;
+    align-items: center;
+}
+
+.suggestions-items {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px;
+}
+
+.suggestions-items img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding-right: 10px ;
+}
+
+.suggestions-items h5{
+    padding: 0 10px;
+    justify-self: flex-start;
+}
+
+.suggestions-items a{
+    color: #0f95f6;
+    text-decoration: none;
+}
+
+.footer {
+    color: #cccccc;
+}
+
+.footer p {
+    color: #cccccc;
+    font-size: .8rem;
+}
+

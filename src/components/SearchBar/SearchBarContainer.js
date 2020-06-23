@@ -4,38 +4,38 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faHeart, faCircle, faCompass } from '@fortawesome/free-regular-svg-icons'
 import "./SearchBar.css";
+import dummyData from "../../dummy-data";
 
-const SearchBar = ({data, setUserSearch}) => {
+const SearchBar = ({setUserSearch}) => {
 
 const [ search, setSearch ] = useState('')
 
 
 useEffect(() => {
   if( search === ''){
-    setUserSearch(data)
+    setUserSearch(dummyData)
    }
-  })
+})
+
 
 const handleChanges = (e) => {
    setSearch(e.target.value)
-   const filter = data.filter( user => user.username.toLowerCase().includes(search.toLowerCase()))
+   const filter = dummyData.filter( user => user.username.toLowerCase().includes(search.toLowerCase()))
    setUserSearch(filter)
 }
-
-
-
 
 
   return (
    
     <div className="search-bar-wrapper">
       <div className="social">
-        <FontAwesomeIcon icon={faInstagram} />
+       
+        <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"/>
       </div>
       <form className="search-form">
         <input
           type="search"
-          placeholder="Search"
+          placeholder='Search'
           onChange={handleChanges}
         />
       </form>
@@ -47,8 +47,7 @@ const handleChanges = (e) => {
           <FontAwesomeIcon icon={faHeart} />
         </div>
         <div className="social">
-          <FontAwesomeIcon icon={faCircle} />
-        </div>
+       </div>
       </div>
     </div>
   );
