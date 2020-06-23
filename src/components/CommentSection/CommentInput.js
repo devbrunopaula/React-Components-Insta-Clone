@@ -1,16 +1,11 @@
 // You do not need to do anything in this file
-import React,{useState, useEffect} from 'react';
+import React,{useState} from 'react';
 import "./postInput.css"
 
 
 const CommentInput = ({data, setData}) => {
   const [ btnColor, setBtnColor ] = useState('#cce8fd')
   const [post, setPost] = useState('')
-  const [placeHolder, setPlaceholder] = useState("Add comment... ")
-
-
-
-
 
 
 

@@ -1,8 +1,7 @@
 // You do not need to change any code in this file
 import React,{ useState, useEffect} from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram } from '@fortawesome/free-brands-svg-icons'
-import { faHeart, faCircle, faCompass } from '@fortawesome/free-regular-svg-icons'
+import { faHeart, faCompass } from '@fortawesome/free-regular-svg-icons'
 import "./SearchBar.css";
 import dummyData from "../../dummy-data";
 
@@ -30,7 +29,7 @@ const handleChanges = (e) => {
     <div className="search-bar-wrapper">
       <div className="social">
        
-        <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"/>
+        <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="insta"/>
       </div>
       <form className="search-form">
         <input

@@ -16,22 +16,22 @@ function SideBar() {
                <div className="suggestions-items">
                    <img src="https://images.unsplash.com/profile-fb-1559212755-e94d790d8308.jpg?dpr=1&auto=format&fit=crop&w=64&h=64&q=60&crop=faces&bg=fff" alt=""/>
                    <h5>Brian Dian</h5>
-                   <a href="">Follow</a>
+                   <a href="/">Follow</a>
                </div>
                <div className="suggestions-items">
                    <img src="https://images.unsplash.com/profile-fb-1516473530-4e49e70397e7.jpg?dpr=1&auto=format&fit=crop&w=64&h=64&q=60&crop=faces&bg=fff" alt=""/>
                    <h5>Clemm Dear</h5>
-                   <a href="">Follow</a>
+                   <a href="/">Follow</a>
                </div>
                <div className="suggestions-items">
                    <img src="https://images.unsplash.com/profile-fb-1556612035-0560e8ce9d13.jpg?dpr=1&auto=format&fit=crop&w=64&h=64&q=60&crop=faces&bg=fff" alt=""/>
                    <h5>Allien Whelen</h5>
-                   <a href="">Follow</a>
+                   <a href="/">Follow</a>
                </div>
                <div className="suggestions-items">
                    <img src="https://images.unsplash.com/profile-1576125763960-8bf1a5d7ed09image?dpr=1&auto=format&fit=crop&w=64&h=64&q=60&crop=faces&bg=fff" alt=""/>
                    <h5>Allien Whelen</h5>
-                   <a href="">Follow</a>
+                   <a href="/">Follow</a>
                </div>
            </div>
            <div className="footer">
